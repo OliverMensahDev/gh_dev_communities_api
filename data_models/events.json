@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "5d725a4a7b292f5f8ceff789",
+    "community": "5d713995b721c3bb38c1f5d0",
+    "user": "5d7a514b5d2c12c7449be045",
+    "name": "Front End Web Development with Mike Perry",
+    "description": "This bootcamp will provide you with all of the essentials to become a successful frontend web developer. You will learn to master HTML, CSS and front end JavaScript, along with tools like Git, VSCode and front end frameworks like Vue",
+    "type": "Bootcamp",
+    "venue": "Our Premises",
+    "registration_link": "https://moderntech.com/bootcamp/2",
+    "isPaid": true
+  },
+  {
+    "_id": "5d725c84c4ded7bcb480eaa0",
+    "community": "5d713995b721c3bb38c1f5d0",
+    "user": "5d7a514b5d2c12c7449be045",
+    "name": "Full Stack Web Development with Francis Addai",
+    "description": "In this meetup you will learn full stack web development, first learning all about the frontend with HTML/CSS/JS/Vue and then the backend with Node.js/Express/MongoDB",
+    "type": "meetup/workshop",
+    "venue": "iSpace Foundation",
+    "registration_link": "https://devcaccra.com/meetup/2",
+    "isPaid": false
+  }
+]

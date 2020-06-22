@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "5d713995b721c3bb38c1f5d0",
+    "user": "5d7a514b5d2c12c7449be045",
+    "name": "Developer Circles Accra",
+    "description": "DevCAccra is a community of software enthusiasts in Accra. It is backed by Facebook",
+    "website": "https://devcaccra.com",
+    "type": "organization-led",
+    "forum": "Facebook Group",
+    "forum_link": "facebook.com/groups/devcaccra"
+  },
+  {
+    "_id": "5d713995b721c3bb38c1f5d0",
+    "user": "5d7a514b5d2c12c7449be045",
+    "name": "DevCongress",
+    "description": "DevCongress is a community of software enthusiasts in Ghana. It was created by amazing software engineers in Ghana",
+    "website": "https://devcongress.org",
+    "type": "Individual-led",
+    "forum": "Slack",
+    "forum_link": "devcongress.slack.com"
+  }
+]

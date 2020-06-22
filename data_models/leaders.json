@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "5d7a514b5d2c12c7449be042",
+    "user": "5d7a514b5d2c12c7449be04f",
+    "community": "5d7a514b5d2c12c7449be04d",
+    "social_media_handles": "dfsfsdfsdfsdfsdfsdf",
+    "role": "Developer Community Lead"
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be042",
+    "user": "5d7a514b5d2c12c7449be04f",
+    "community": "5d7a514b5d2c12c7449be04d",
+    "social_media_handles": "dfsfsdfsdfsdfsdfsdf",
+    "role": "Co-Lead"
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be042",
+    "user": "5d7a514b5d2c12c7449be04f",
+    "community": "5d7a514b5d2c12c7449be04d",
+    "social_media_handles": "dfsfsdfsdfsdfsdfsdf",
+    "role": "Founder"
+  },
+  {
+    "_id": "5d7a514b5d2c12c7449be042",
+    "user": "5d7a514b5d2c12c7449be04f",
+    "community": "5d7a514b5d2c12c7449be04d",
+    "social_media_handles": "dfsfsdfsdfsdfsdfsdf",
+    "role": "Co-organizer"
+  }
+]
