@@ -1,0 +1,28 @@
+{
+  "name": "gh_dev_communities_api",
+  "version": "1.0.0",
+  "description": "Ghana Developer Communities API",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OliverMensahDev/gh_dev_communities_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OliverMensahDev/gh_dev_communities_api/issues"
+  },
+  "homepage": "https://github.com/OliverMensahDev/gh_dev_communities_api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
