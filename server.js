@@ -1,5 +1,6 @@
 const express = require('express');
 const dotenv = require('dotenv');
+const errorHandler = require('./middleware/errorHandler');
 require('colors');
 
 //Load Files
@@ -12,6 +13,8 @@ const app = express();
 DBConnection();
 app.use(express.json());
 app.use('/api/v1/communities', communities);
+
+app.use(errorHandler);
 
 const PORT = process.env.PORT || 3000;
 app.listen(
