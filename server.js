@@ -3,13 +3,18 @@ const dotenv = require('dotenv');
 require('colors');
 
 //Load Files
-dotenv.config({ path: './config/config.env' });
+dotenv.config({ path: './.env' });
+const communities = require('./routes/communities');
+const DBConnection = require('./models/db/DBConnection');
 
 //server info
 const app = express();
+DBConnection();
 app.use(express.json());
+app.use('/api/v1/communities', communities);
+
 const PORT = process.env.PORT || 3000;
-const server = app.listen(
+app.listen(
   PORT,
   console.log(
     `Server running in ${process.env.NODE_ENV} mode on port ${PORT}`.yellow
@@ -18,5 +23,4 @@ const server = app.listen(
 );
 process.on('unhandledRejection', (err, promise) => {
   console.log(`Error: ${err.message}`.red);
-  server.close(() => process.exit(1));
 });

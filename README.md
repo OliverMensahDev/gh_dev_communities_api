@@ -1,6 +1,22 @@
-# Ghana Developer Communities Backend API
+# Contributing to the Project
 
-This is an API for developer community listings for communities in Ghana developer ecosystem. Below are all the functionalities to be implemented at 
+## Setting up
+
+1. Run `npm install`
+2. Create .env file and replace `xxx` with your own values
+
+```env
+NODE_ENV=development
+PORT=3000
+MONGO_URI=xxx
+```
+
+3. Test running the server with `npm run dev` command
+4. Test making request to endpoints with postman.
+
+# About Ghana Developer Communities Backend API
+
+This is an API for developer community listings for communities in Ghana developer ecosystem. Below are all the functionalities to be implemented at
 
 ## Communities
 
