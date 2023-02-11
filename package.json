@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/OliverMensahDev/gh_dev_communities_api#readme",
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.20"
   },
   "dependencies": {
     "colors": "^1.4.0",
